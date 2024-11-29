@@ -64,7 +64,7 @@ const Edit = ({navigation, route}) => {
                     <Button title="DELETE"
                             onPress={()=> {
                                 let indexNum = 1;
-                                if (route.params.type == 'Vowels') {
+                                if (route.params.type == 'Poison') {
                                     indexNum = 0;
                                 }
                                 Alert.alert("Are you sure?", '',
